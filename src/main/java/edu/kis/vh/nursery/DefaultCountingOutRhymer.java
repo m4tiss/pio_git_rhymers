@@ -8,10 +8,6 @@ public class DefaultCountingOutRhymer {
         return total;
     }
 
-    public void setTotal(int total) {
-        this.total = total;
-    }
-
     private int total = -1;
 
     public void countIn(int in) {
@@ -43,7 +39,4 @@ public class DefaultCountingOutRhymer {
         return numbers;
     }
 
-    public void setNumbers(int[] numbers) {
-        this.numbers = numbers;
-    }
 }
