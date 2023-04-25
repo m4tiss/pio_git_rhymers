@@ -2,9 +2,9 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
-    public static int MAX_SIZE = 12;
-    public static int NO_ELEMENTS = -1;
-    private int[] numbers = new int[MAX_SIZE];
+    public static final int MAX_SIZE = 12;
+    public static final int NO_ELEMENTS = -1;
+    private final int[] numbers = new int[MAX_SIZE];
 
     public int total = NO_ELEMENTS;
 
